@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.contact_details {
+  width: 400px;
+  height: auto !important;
+  margin: auto;
+  padding: 4px 0px;
+  background-image: linear-gradient(to right, #655dff, #a65eca);
+}
+
+.photo_name {
+  width: 100%;
+}
+
+.photo_name img {
+  border: 2px solid lightgray;
+  box-shadow: 5px 5px 5px lightgray;
+  border-radius: 200px;
+  width: 150px;
+  height: 170px;
+  margin: 10px 120px;
+}
+
+h4, h5 {
+  text-align: center;
+  color: white;
+  margin: 0;
+}
+
+h6 {
+  text-align: center;
+  margin: 10px 0px;
+  color: black;
+}
+
+.contact_body ul {
+  margin: 10px;
+  padding: 10px;
+}
+
+.contact_body ul li {
+  list-style-type: none;
+  background-color: white;
+}
+/* accordion-button */
+
+.accordion-button:not(.collapsed) {
+  background-color: white;
+  color: black;
+}
+
+.accordion-button:focus {
+  z-index: 3;
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.accordion-body {
+  background-color: white;
+  color: black;
+  border-top:1px solid lightgrey;
+
+}
+
+
+.sub_child2 h3 a {
+  color: blue;
+  opacity: 0.8;
+  transition: 0.5s;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.sub_child2 h3 a:hover {
+  color: red;
+}
+
+.child {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0px 10px;
+  margin: 10px 0px;
+}
+
+.sub_child2 p,
+.sub_child2 h3 {
+  margin: 5px;
+}
+
+.sub_child2 p {
+  font-weight: normal;
+  font-size: 13px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.mobile {
+  color: rgb(79, 79, 148);
+}
+
+.church,
+.fa-link,
+.fa-globe, .fa-envelope, .fa-location-dot, .facebook_church {
+  color: rgb(79, 79, 148);
+  font-size: 20px;
+}
+
+/* footer social media links */
+.footer1, .footer2 {
+  background-color: white;
+  margin: 10px 15px;
+  border: 1px solid lightgrey;
+}
+
+.footer1 ul {
+  padding: 0px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer1 ul li,
+.footer2 ul li {
+  list-style-type: none;
+}
+
+.footer1 .fa-facebook {
+  color: blue;
+}
+
+.fa-square-twitter {
+  color: blue;
+}
+
+.fa-instagram {
+  color: rgb(247, 17, 132);
+}
+
+.fa-linkedin {
+  color: rgb(8, 118, 208);
+}
+
+.footer2 ul {
+  padding: 10px;
+  /* margin: 0px; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+
+.payment p {
+  margin: 0px;
+}
